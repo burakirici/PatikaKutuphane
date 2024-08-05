@@ -16,4 +16,8 @@ Console.WriteLine("Book Name: " + book2.Name + "\nAuthor Name: " + book2.AuthorN
 Library.BookCount_++;
 Library.DisplayBookNumber();
 
+// Class burada yeni bir Kütüphane sınıfı oluşturmak için kullanılır.
+// Property burada yarattığımız Kütüphanedeki kitapların özelliklerini belirlemek için kullanılır.
+// New burada kütüphaneye yeni kitaplar eklememizi sağlar.
+// Constructor 2 adet alternatifle, biri default biri değer döndürecek şekilde kullanılmıştır. Oluşturduğumuz kitap nesnesiyle ilgili işlemleri yapabilmemizi sağlar. 
 
